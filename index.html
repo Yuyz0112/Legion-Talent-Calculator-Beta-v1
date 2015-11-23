@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <title>魔兽世界7.0天赋模拟器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://wow.tgbus.com/style2015/js/jquery-1.7.2.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!--nav-->
+        <div class="nav-wrapper">
+          <div class="nav">
+            <ul class="waiul clearfix">
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/" target="_blank">首页</a>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/special/hot/" target="_blank">新闻</a>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/class/" target="_blank">
+                  职业
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/warrior/" target="_blank">战士</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/mage/" target="_blank">法师</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/priest/" target="_blank">牧师</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/paladin/" target="_blank">圣骑士</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/druid/" target="_blank">德鲁伊</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/warlock/" target="_blank">术士</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/hunter/" target="_blank">猎人</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/rogue/" target="_blank">潜行者</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/shaman/" target="_blank">萨满祭司</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/dk/" target="_blank">死亡骑士</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/class/Monk/" target="_blank">武僧</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/video/" target="_blank">
+                  视频
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/pvp/" target="_blank">PVP视频</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/pve/" target="_blank">PVE视频</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/mtv/gaoxiao/" target="_blank">搞笑视频</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/mtv/mv/" target="_blank">翻唱视频</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/official/" target="_blank">宣传视频</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/exp/quest/" target="_blank">
+                  攻略
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/" target="_blank">任务攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/chengjiu/" target="_blank">成就攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201411/20141119113937.shtml" target="_blank">5人副本攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201412/20141203155103.shtml" target="_blank">悬垂堡攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201502/20150205102900.shtml" target="_blank">黑石铸造厂攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/raid/201507/20150724132802.shtml" target="_blank">地狱火堡垒攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/chongwu/" target="_blank">宠物对战攻略</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201412/20141205093250.shtml" target="_blank">世界BOSS攻略</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/tupian/" target="_blank">
+                  图片
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/special/tpjiongtu/" target="_blank">魔兽囧图</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/special/tupian/" target="_blank">漫画周边</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/special/tupian/" target="_blank">经典壁纸</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/special/tupian/" target="_blank">搞笑截图</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/tupian/wanjia/" target="_blank">魔兽玩家</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/special/yaoren/" target="_blank">咬人漫画</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/Special/meimo/" target="_blank">魅魔合集</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/Special/nvren/" target="_blank">我笔下的女人们</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/exp/quest/" target="_blank">
+                  PVE
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201412/20141203155103.shtml" target="_blank">悬垂堡</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/quest/201502/20150205102900.shtml" target="_blank">黑石铸造厂</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/exp/raid/201507/20150715132802.shtml" target="_blank">地狱火堡垒</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="waia overline-center" href="http://wow.tgbus.com/pvp/" target="_blank">
+                  PVP
+                  <span class="arrow"></span>
+                </a>
+                <div class="neinav">
+                  <ul>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/pvp/JS2v2/" target="_blank">2V2竞技场</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/pvp/battlefield/J3v3/" target="_blank">3V3竞技场</a>
+                    </li>
+                    <li>
+                      <a href="http://wow.tgbus.com/video/pvp/" target="_blank">综合</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <a class="ngaBtn" href="http://bbs.nga.cn/" target="_blank">NGA论坛</a>
+            <a class="searchBtn" target="_Self" href="javascript:;">search</a>
+            <script language="javascript">
+            function baidusearch () {
+            var wd=document.getElementsByName("wd")[0].value;
+            if(wd!="" && wd!="站内搜索"){
+            var link="http://www.baidu.com/s?si=wow.tgbus.com&cl=3&ct=2097152&tn=baidulocal&word="+wd;
+            window.open(link);
+            }
+            $(".nav .searchBtnClick").hide();
+            $(".nav .searchBtn").show();
+            }
+            $(function(){
+            $(".seachinput").keyup(function(){
+            if(event.keyCode == 13){
+            baidusearch();
+            }
+            })
+            })
+            </script>
+            <div class="searchBtnClick">
+              <input class="seachinput" type="search" onfocus="if( this.value=='站内搜索') {this.value='' };" value="站内搜索" name="wd" placeholder="搜索">
+              <a class="searchBtn2" target="_Self" href="javascript:baidusearch()"></a>
+            </div>
+          </div>
+        </div>
+        <!--nav end-->
+        <div id="t-calculator">
+          <h1 class="title">魔兽世界7.0天赋模拟器</h1>
+          <h5 class="version">当前版本：Beta 20740</h5>
+          <div class="share-btn">
+            
+          </div>
+          <div class="class-bar">
+            <div class="guide1">
+              <span>1</span>
+              选择你的天赋
+            </div>
+            <ul class="class-list clearfix">
+              <li id="dk-icon"  data-role="dk"></li>
+              <li id="dh-icon"  data-role="dh">DH</li>
+              <li id="xd-icon"  data-role="xd"></li>
+              <li id="lr-icon"  data-role="lr"></li>
+              <li id="fs-icon"  data-role="fs"></li>
+              <li id="ws-icon"  data-role="ws"></li>
+              <li id="qs-icon"  data-role="qs"></li>
+              <li id="ms-icon"  data-role="ms"></li>
+              <li id="dz-icon"  data-role="dz"></li>
+              <li id="sm-icon"  data-role="sm"></li>
+              <li id="ss-icon"  data-role="ss"></li>
+              <li id="zs-icon"  data-role="zs"></li>
+            </ul>
+          </div>
+          <!--ajax page-->
+          <div class="ajax-wrapper">
+            <div class="preloader">
+              <div id="loader"></div>
+            </div>
+          </div>
+          <!--ajax page end-->
+        </div>
+        <!--footer-->
+        <div class="footer">
+          <div class="d1 clearfix">
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/" target="_blank"><b>－魔兽世界新闻－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/official/" target="_blank">官方新闻</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/patch/" target="_blank">版本信息</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/international/" target="_blank">新闻动态</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/oseas/" target="_blank">海外消息</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/news/blue/" target="_blank">暴雪蓝贴</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/class/" target="_blank"><b>－职业攻略－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/zhanshi/" target="_blank">战士</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/fashi/" target="_blank">法师</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/deluyi//" target="_blank">德鲁伊</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/mushi/" target="_blank">牧师</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/daozei/" target="_blank">盗贼</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/shushi/" target="_blank">术士</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/lieren/" target="_blank">猎人</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/shengqishi/" target="_blank">圣骑士</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/saman/" target="_blank">萨满祭司</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/dk/" target="_blank">死亡骑士</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/class/monk/" target="_blank">武僧</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/" target="_blank"><b>－专业技能－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Alchemy/" target="_blank">炼金</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Blacksmithing/" target="_blank">锻造</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Cooking/" target="_blank">烹饪</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Enchanting/" target="_blank">附魔</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Engineering/" target="_blank">工程</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/FirstAid/" target="_blank">急救</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Fishing/" target="_blank">钓鱼</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Mining/" target="_blank">采矿</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Skinning/" target="_blank">剥皮</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Leatherworking/" target="_blank">制皮</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Tailoring/" target="_blank">裁缝</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Jewelcrafting/" target="_blank">宝石</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/mingwen/" target="_blank">铭文</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/Herbalism/" target="_blank">草药</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/professions/kaogu/" target="_blank">考古</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/special/tupian/" target="_blank"><b>－魔兽世界图片－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/tupian/wallpaper/" target="_blank">魔兽世界壁纸</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/tupian/screenshot/" target="_blank">魔兽世界截图</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/tupian/comic/" target="_blank">魔兽世界漫画</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/" target="_blank">魔兽世界幻化</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/bujia/" target="_blank">布甲幻化</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/pijia/" target="_blank">皮甲幻化</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/suojia/" target="_blank">锁甲幻化</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/banjia/" target="_blank">板甲幻化</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/huanhua/wuqi/" target="_blank">武器幻化</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/emotion/" target="_blank"><b>－魔兽世界小说－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/background/novel/" target="_blank">小说文学</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/background/tuijian/" target="_blank">小说推荐</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/background/story/" target="_blank">背景故事</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/emotion/qinggan/" target="_blank">情感交流</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/emotion/notes/" target="_blank">个人历程</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/emotion/bagua/" target="_blank">八卦杂谈</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/exp/" target="_blank"><b>－魔兽世界攻略－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/exp/quest/" target="_blank">魔兽世界副本攻略</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/exp/raid/" target="_blank">魔兽世界副本心得</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/exp/chengjiu/" target="_blank">魔兽世界成就攻略</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/jiaodian/exp/" target="_blank">魔兽世界任务攻略</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/wenda/" target="_blank">魔兽世界问答</a></li>
+            </ul>
+            <ul>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/" target="_blank"><b>－魔兽世界视频－</b></a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/pvp/" target="_blank">PVP视频</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/pve/" target="_blank">PVE视频</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/offical/" target="_blank">宣传视频</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/mingren/" target="_blank">名人堂</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/film/" target="_blank">魔兽电影</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/heji/" target="_blank">合辑推荐</a></li>
+              <li><a class="underline-left" href="http://wow.tgbus.com/video/mtv/" target="_blank">其他视频</a></li>
+            </ul>
+          </div>
+          <div class="d2">
+            <p><a class="underline-left" href="http://www.tgbus.com/info/1.shtml">关于我们</a>　<a class="underline-left" href="http://www.tgbus.com/info/2.shtml">广告投放</a>　<a class="underline-left" href="http://www.tgbus.com/info/3.shtml">联系我们</a>　<a class="underline-left" href="http://www.tgbus.com/info/4.shtml">网站地图</a>　<a class="underline-left" href="http://www.tgbus.com/info/5.shtml">友情链接</a>　<a class="underline-left" href="http://www.tgbus.com/info/6.shtml">诚聘英才</a>　<a class="underline-left" href="http://user.tgbus.com/">成为会员</a>　<a class="underline-left" href="http://www.tgbus.com/info/8.shtml">版权声明</a>　<a class="underline-left" href="http://wap.tgbus.com/">WAP手机版</a>　<a class="underline-left" href="http://shop.tgbus.com/">购物热线:4006-577-566</a></p>
+            <p><a class="underline-left" href="http://www.miibeian.gov.cn/">渝ICP备14007792号-12</a>　<a class="underline-left" href="http://www.miibeian.gov.cn/">ICP:皖B2-20130011</a>　<a class="underline-left" href="http://www.tgbus.com/zizhi/tvmake.jpg" target="_blank" rel="nofollow">广电节目制作（皖）字第00154号</a>　皖公网安备34020302200005　<a class="underline-left" href="http://www.tgbus.com/zizhi/www.jpg" target="_blank" rel="nofollow">皖网文许字[2014]1237-013号</a>
+          </p>
+          <p>Copyright 2004-2014 TGBUS Corporation, All Rights Reserved</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.tooltipster.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+    </script>
+  </body>
+</html>
